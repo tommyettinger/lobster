@@ -107,7 +107,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>freetype246_D.lib;opengl32.lib;SDL2d.lib;SDL2maind.lib;winmm.lib;imm32.lib;version.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>freetype246_D.lib;opengl32.lib;SDL2d.lib;SDL2maind.lib;winmm.lib;imm32.lib;version.lib;BearLibTerminal.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>..\lib</AdditionalLibraryDirectories>
       <StackCommitSize>
       </StackCommitSize>
@@ -500,6 +500,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="..\src\audio.cpp" />
+    <ClCompile Include="..\src\blt.cpp" />
     <ClCompile Include="..\src\builtins.cpp" />
     <ClCompile Include="..\src\file.cpp" />
     <ClCompile Include="..\src\font.cpp" />

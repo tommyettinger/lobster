@@ -532,6 +532,9 @@
     <ClCompile Include="..\include\Box2D\Particle\b2ParticleAssembly.cpp">
       <Filter>engine\physics\Box2D</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\blt.cpp">
+      <Filter>engine\lobster_bindings</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\TODO.txt" />

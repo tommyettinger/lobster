@@ -1,5 +1,5 @@
 /dev/**/*.o
-/dev/src/lobster
+
 *.suo
 *.lbc
 
@@ -14,6 +14,11 @@
 
 /lobster/lobsterDBG.*
 
-/dev/android/assets/
 /dev/android/VS/LobsterAndroid/Tegra-Android/Debug/
 /dev/android/VS/LobsterAndroid/Tegra-Android/Release/
+
+*~
+*#*#
+*#*.*#
+*.ipch
+*.opensdf
